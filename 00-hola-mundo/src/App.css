@@ -43,10 +43,7 @@
   }
   
   .tw-followCard-text {
-    overflow: hidden;
     display: block;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
   }
   
   .tw-followCard-button.is-following {
