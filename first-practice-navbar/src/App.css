@@ -1,0 +1,83 @@
+.navbar{
+  display: flex;
+  width: 100%;
+  height: 110px;
+  justify-content: space-around;
+}
+
+.navbar-containerLogo{
+  width: 20vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.navbar-logo{
+  width: 100px;
+  user-select: none;
+}
+
+.navbar-list{
+  width: 50vw;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid red;
+}
+
+
+.navbar-listItem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 50px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.navbar-listItem:hover{
+  background-color: rgb(26, 85, 75);
+  color: black;
+}
+
+.navbar-item{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 0.8vw;
+  font-weight: bold;
+  user-select: none;
+}
+
+.navbar-container-user{
+  width: 20vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.navbar-imgUser{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  user-select: none;
+  border: 3px solid rgb(8, 226, 255);
+}
+
+.navbar-user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 60px;
+  user-select: none;
+}
+
+.navbar-user:hover{
+  text-decoration: underline;
+}
