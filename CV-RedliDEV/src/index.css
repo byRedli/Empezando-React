@@ -1,0 +1,14 @@
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "Cabin";
+        box-sizing: border-box;
+    }
+  
+  html, body {
+    height: 100%; /* Asegura que html y body ocupen el 100% del alto */
+  }
+  
+  #root {
+    height: 100%; /* Asegura que el contenedor root ocupe el 100% del alto */
+  }
